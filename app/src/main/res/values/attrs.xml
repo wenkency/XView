@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <declare-styleable name="LineLayout">
+        <!--两个View之间的间距 ：值越小就越近，越大就越远-->
+        <attr name="lineViewMarginRate" format="float" />
+        <!--View的层次关系，true:前面的在上，false:后面的在上-->
+        <attr name="lineIsReverse" format="boolean" />
+    </declare-styleable>
+
+</resources>
